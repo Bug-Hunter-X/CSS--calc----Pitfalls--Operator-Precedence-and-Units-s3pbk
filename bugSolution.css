@@ -1,0 +1,12 @@
+/* bugSolution.css */
+.container {
+  width: calc((100vw - 20px) / 2); /* Correct use of parentheses for precedence */
+  background-color: lightblue; }
+
+.box {
+  width: calc(50% - 10px); /* Correct usage with percentages and pixels */
+  height: 100px;
+  background-color: lightcoral;
+}
+
+/* Note the use of parentheses for correct precedence and unit consistency */
